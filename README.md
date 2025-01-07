@@ -35,10 +35,10 @@ This repository contains a Python application for simulating room acoustics and 
 ## Usage
 
 ### Command-Line Arguments
-| Argument      | Description                                                    | Default             |
+| **Argument**  | **Description**                                                | **Default**         |
 |---------------|----------------------------------------------------------------|---------------------|
-| --input_file  | Path to a text file containing WAV files paths (one per line). | Required            |
-| --output_dir  | Directory which simulated audios files will be saved.          | Required            |
-| --rooms_shape | Room shape: polygon, rectangle, or all                         | all                 |
-| --num_rooms   | Number of rooms to generate for simulation                     | 100                 |
-| --num_workers | Number of worker processes for parallel processing             | Number of cpu cores |
+| `--input_file`  | Path to a text file containing WAV files paths (one per line). | Required            |
+| `--output_dir`  | Directory which simulated audios files will be saved.          | Required            |
+| `--rooms_shape` | Room shape: `polygon`, `rectangle`, or `all`                         | `all`                 |
+| `--num_rooms`   | Number of rooms to generate for simulation                     | 100                 |
+| `--num_workers` | Number of worker processes for parallel processing             | Number of cpu cores |
