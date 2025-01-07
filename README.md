@@ -1,4 +1,4 @@
-# Pyroomacoustics Room Simulator
+# Pyroomacoustics Rooms Simulator
 
 
 This repository contains a Python application for simulating room acoustics and applying the simulated effects to WAV audio files. The simulation is based on user-defined room dimensions, shapes, and acoustic characteristics.
@@ -42,3 +42,14 @@ This repository contains a Python application for simulating room acoustics and 
 | `--rooms_shape` | Room shape: `polygon`, `rectangle`, or `all`                         | `all`                 |
 | `--num_rooms`   | Number of rooms to generate for simulation                     | 100                 |
 | `--num_workers` | Number of worker processes for parallel processing             | Number of cpu cores |
+### Running the Script
+1. Prepate a text file (`input.txt`) with paths to the WAV files, one path per line.
+2. Run the script:
+   ```bash
+   python main.py --input_file input.txt --output_dir simulated_wavs --rooms_shape rectangle --num_rooms 50 --num_workers 4
+
+## Contributions
+Contributions are welcome! Feel free to open issues or submit pull requests for new features or bug fixes.
+
+---
+For any questions or issues, please contact yahyadaqour@gmail.com
